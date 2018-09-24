@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-
+ 
 function badRequest() {
     http_response_code(400);
     header('Location: /');
