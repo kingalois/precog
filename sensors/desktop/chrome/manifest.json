@@ -1,0 +1,12 @@
+{
+  "name": "Precog Sensor",
+  "version": "1.0",
+  "description": "Monitors web browsing activities and sends visited URLS to precog server for analysis",
+  "permissions": ["http://www.precok.org/*", "tabs", "activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  
+  "manifest_version": 2
+}
